@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app'
 import Layout from '@layout/Layout'
 import { ContextWrapper, defaultState, SharedState } from '@hooks/context'
 import { Theme } from '@helper/types'
+import 'animate.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
 	const [theme, setTheme] = React.useState<Theme>(defaultState.theme)

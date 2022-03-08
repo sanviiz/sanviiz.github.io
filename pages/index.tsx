@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import PageRevealer from '@components/PageRevealer/PageRevealer'
 
 const Home: NextPage = () => {
 	return (
@@ -10,7 +11,12 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div className="container mx-auto">
-				<div className="border border-red-500 py-96 text-center text-red-500">Content</div>
+				<div className="border border-red-500 py-60 text-center text-red-500 md:py-96">
+					Content
+				</div>
+				<div className="text-white">
+					<PageRevealer />
+				</div>
 			</div>
 		</>
 	)
