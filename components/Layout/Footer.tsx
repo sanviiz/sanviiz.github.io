@@ -4,7 +4,7 @@ const Footer: FC = () => {
 	return (
 		<>
 			<footer className="bg-white p-4 transition-all dark:bg-gray-800 sm:p-6">
-				<div className="container mx-auto">
+				<div className="container mx-auto max-w-6xl">
 					<div className="md:flex md:justify-between">
 						<div className="mb-6 md:mb-0">
 							<div className="flex items-center">
