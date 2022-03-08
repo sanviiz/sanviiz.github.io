@@ -1,5 +1,5 @@
-import * as ghpages from 'gh-pages'
-import moment from 'moment'
+let ghpages = require('gh-pages')
+let moment = require('moment')
 
 ghpages.publish('out', {
 	branch: 'main',
