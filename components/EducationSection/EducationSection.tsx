@@ -72,7 +72,7 @@ const EducationSection: FC = () => {
 								{education.description}
 							</p>
 							{education?.list && (
-								<ul className="mb-4 ml-4 list-disc text-base font-normal text-gray-600 transition-all dark:text-gray-400">
+								<ul className="mb-4 ml-4 list-disc text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 									{education.list.map((listElement, index) => {
 										return <li key={index}>{listElement}</li>
 									})}

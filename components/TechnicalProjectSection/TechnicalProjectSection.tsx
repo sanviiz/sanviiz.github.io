@@ -89,7 +89,7 @@ const TechnicalProjectSection: FC = () => {
 					{project.place}
 				</p>
 				{project?.list && (
-					<ul className="ml-4 list-disc text-base font-normal text-gray-600 transition-all dark:text-gray-400">
+					<ul className="ml-4 list-disc text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 						{project.list.map((listElement, index) => {
 							return <li key={index}>{listElement}</li>
 						})}
