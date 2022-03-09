@@ -12,8 +12,8 @@ const Header: FC = () => {
 
 	return (
 		<>
-			<nav className="sticky top-0 z-10 border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 sm:px-4">
-				<div className="container mx-auto flex max-w-6xl flex-wrap items-center justify-between">
+			<nav className="sticky top-0 z-10 border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 xs:px-6">
+				<div className="container mx-auto flex max-w-5xl flex-wrap items-center justify-between">
 					<div className="flex items-center">
 						<span className="self-center whitespace-nowrap text-xl font-semibold transition-all dark:text-white">
 							Sanviiz
