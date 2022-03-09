@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import TableOfContents from '@components/TableOfContents/TableOfContents'
 import HeroSection from '@components/HeroSection/HeroSection'
+import EducationSection from '@components/EducationSection/EducationSection'
 
 const Home: NextPage = () => {
 	return (
@@ -18,7 +19,9 @@ const Home: NextPage = () => {
 					<div>
 						<TableOfContents />
 					</div>
-					<div className="border border-red-500 py-96 lg:col-span-3"></div>
+					<div className="lg:col-span-3">
+						<EducationSection />
+					</div>
 				</div>
 			</div>
 		</>

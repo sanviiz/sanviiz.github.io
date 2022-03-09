@@ -5,3 +5,15 @@ export type RevealerStatus = {
 	complete: Boolean
 	hide: Boolean
 }
+
+export type TableContents = {
+	label: String
+	link: String
+}
+
+export type Education = {
+	academy: String
+	program: String
+	description: String
+	list?: String[]
+}
