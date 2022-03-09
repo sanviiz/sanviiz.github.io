@@ -4,20 +4,21 @@ import { Work } from '@helper/types'
 const WorkSection: FC = () => {
 	const workList: Work[] = [
 		{
-			company: 'Tech basecamp co., ltd.',
+			company: 'Tech basecamp',
 			role: 'Frontend Developer',
 			date: 'December 2020 - Now',
-			place: 'Bangkok, TH',
+			place: 'Bangkok, Thailand',
 			list: [
 				'UX/UI Design for Responsive Web Application (Mobile/Desktop)',
 				'Develop CMS System on Web Application by using Laravel and Next.js (React.js)',
 			],
+			link: 'https://www.techbase.camp/',
 		},
 		{
 			company: 'Tentrack laboratory',
 			role: 'IoT Developer',
 			date: 'Project by Project',
-			place: 'Bangkok, TH',
+			place: 'Bangkok, Thailand',
 			list: [
 				'Software Develop for IoT Project',
 				'Hardware Embedded and Design',
@@ -29,7 +30,7 @@ const WorkSection: FC = () => {
 	return (
 		<>
 			<span className="text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
-				Work experience
+				Work Experience
 			</span>
 			<div className="pt-4 pl-4">
 				<ol className="relative border-l border-gray-200 transition-all dark:border-gray-700">
@@ -68,7 +69,10 @@ const WorkSection: FC = () => {
 									work?.list ? 'mb-0' : 'mb-4'
 								}`}
 							>
-								{work.date + ' | ' + work.place}
+								{work.date}
+								<span className="hidden sm:inline"> | </span>
+								<br className="block sm:hidden" />
+								{work.place}
 							</p>
 							{work?.list && (
 								<ul className="mb-4 ml-4 list-disc text-base font-normal text-gray-600 transition-all dark:text-gray-400">
@@ -76,6 +80,16 @@ const WorkSection: FC = () => {
 										return <li key={index}>{listElement}</li>
 									})}
 								</ul>
+							)}
+							{work?.link && (
+								<a
+									href={work.link}
+									target="_blank"
+									rel="noreferrer"
+									className="inline-flex items-center rounded-lg border border-gray-200 bg-white py-2 px-4 text-sm font-medium text-gray-600 transition-all hover:bg-gray-100 hover:text-black dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+								>
+									More Information
+								</a>
 							)}
 						</li>
 					))}

@@ -5,6 +5,8 @@ import HeroSection from '@components/HeroSection/HeroSection'
 import EducationSection from '@components/EducationSection/EducationSection'
 import SkillSection from '@components/SkillSection/SkillSection'
 import WorkSection from '@components/WorkSection/WorkSection'
+import TechnicalProjectSection from '@components/TechnicalProjectSection/TechnicalProjectSection'
+import BusinessProjectSection from '@components/BusinessProjectSection/BusinessProjectSection'
 
 const Home: NextPage = () => {
 	return (
@@ -25,6 +27,8 @@ const Home: NextPage = () => {
 						<EducationSection />
 						<SkillSection />
 						<WorkSection />
+						<TechnicalProjectSection />
+						<BusinessProjectSection />
 					</div>
 				</div>
 			</div>

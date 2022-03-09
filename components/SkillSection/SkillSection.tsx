@@ -12,14 +12,14 @@ const SkillSection: FC = () => {
 						Technical skills
 					</h3>
 					<span className="mb-2 block text-sm font-normal leading-normal text-gray-400 transition-all dark:text-gray-500">
-						Skilful in
+						Skilful in:
 					</span>
 					<p className="mb-2 text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 						Python 3, JavaScript (ES6), Node.js, C/C++, React, SQL, HTML5, CSS3, Git,
 						Agile (Trello), Linux, IoT, Arduino, Adobe Creative Cloud, Vim
 					</p>
 					<span className="mb-2 block text-sm font-normal leading-normal text-gray-400 transition-all dark:text-gray-500">
-						And have some experienced about
+						And have some experienced about:
 					</span>
 					<p className="text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 						MIPS Assembly, ARM Cortex-M0, Golang, Vue, NoSQL, SCSS, UX/UI Design
@@ -30,7 +30,7 @@ const SkillSection: FC = () => {
 						Soft skills
 					</h3>
 					<span className="mb-2 block text-sm font-normal leading-normal text-gray-400 transition-all dark:text-gray-500">
-						Outstanding
+						Outstanding:
 					</span>
 					<p className="text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 						Public Speaker, Leader, Teaching, Motivator
