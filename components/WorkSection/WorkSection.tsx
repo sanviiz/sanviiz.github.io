@@ -1,42 +1,41 @@
 import React, { FC } from 'react'
-import { Education } from '@helper/types'
+import { Work } from '@helper/types'
 
-const EducationSection: FC = () => {
-	const educationList: Education[] = [
+const WorkSection: FC = () => {
+	const workList: Work[] = [
 		{
-			academy: 'KMUTT',
-			program: 'Bachelor of Engineering in Electronic and Telecommunication Engineering',
-			description:
-				'Present, King Mongkut’s University of Technology Thonbury 4rd Year Student',
-		},
-		{
-			academy: 'Codemobiles online course',
-			program: 'Warehousing Department on Web Application',
-			description: 'By using Stacks which are',
+			company: 'Tech basecamp co., ltd.',
+			role: 'Frontend Developer',
+			date: 'December 2020 - Now',
+			place: 'Bangkok, TH',
 			list: [
-				'Frontend: React.js with AdminLTE Theme',
-				'Backend: Node.js and Express.js with Sequelize ORM on SQLite database engine',
+				'UX/UI Design for Responsive Web Application (Mobile/Desktop)',
+				'Develop CMS System on Web Application by using Laravel and Next.js (React.js)',
 			],
 		},
 		{
-			academy: 'Sisaket wittayalai school',
-			program: 'Science and Mathematics Program',
-			description: 'Graduated April 2018',
+			company: 'Tentrack laboratory',
+			role: 'IoT Developer',
+			date: 'Project by Project',
+			place: 'Bangkok, TH',
+			list: [
+				'Software Develop for IoT Project',
+				'Hardware Embedded and Design',
+				'IoT Project Consultant',
+			],
 		},
 	]
 
 	return (
 		<>
 			<span className="text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
-				Education
+				Work experience
 			</span>
 			<div className="pt-4 pl-4">
 				<ol className="relative border-l border-gray-200 transition-all dark:border-gray-700">
-					{educationList.map((education, index) => (
+					{workList.map((work, index) => (
 						<li
-							className={`ml-6 ${
-								index === educationList.length - 1 ? 'mb-6' : 'mb-10'
-							}`}
+							className={`ml-6 ${index === workList.length - 1 ? 'mb-6' : 'mb-10'}`}
 							key={index}
 						>
 							<span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white transition-all dark:bg-blue-900 dark:ring-gray-900">
@@ -54,7 +53,7 @@ const EducationSection: FC = () => {
 								</svg>
 							</span>
 							<h3 className="mb-1 flex items-center text-lg font-semibold uppercase text-gray-900 transition-all dark:text-white">
-								{education.academy}{' '}
+								{work.company}{' '}
 								{index === 0 && (
 									<span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium capitalize text-blue-800 transition-all dark:bg-blue-200 dark:text-blue-800">
 										Latest
@@ -62,18 +61,18 @@ const EducationSection: FC = () => {
 								)}
 							</h3>
 							<span className="mb-2 block text-sm font-normal leading-normal text-gray-400 transition-all dark:text-gray-500">
-								{education.program}
+								{work.role}
 							</span>
 							<p
 								className={`text-base font-normal text-gray-500 transition-all dark:text-gray-400 ${
-									education?.list ? 'mb-0' : 'mb-4'
+									work?.list ? 'mb-0' : 'mb-4'
 								}`}
 							>
-								{education.description}
+								{work.date + ' | ' + work.place}
 							</p>
-							{education?.list && (
+							{work?.list && (
 								<ul className="mb-4 ml-4 list-disc text-base font-normal text-gray-600 transition-all dark:text-gray-400">
-									{education.list.map((listElement, index) => {
+									{work.list.map((listElement, index) => {
 										return <li key={index}>{listElement}</li>
 									})}
 								</ul>
@@ -86,4 +85,4 @@ const EducationSection: FC = () => {
 	)
 }
 
-export default EducationSection
+export default WorkSection

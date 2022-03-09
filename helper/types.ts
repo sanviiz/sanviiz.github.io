@@ -17,3 +17,11 @@ export type Education = {
 	description: String
 	list?: String[]
 }
+
+export type Work = {
+	company: String
+	role: String
+	date: String
+	place: String
+	list: String[]
+}

@@ -3,6 +3,8 @@ import Head from 'next/head'
 import TableOfContents from '@components/TableOfContents/TableOfContents'
 import HeroSection from '@components/HeroSection/HeroSection'
 import EducationSection from '@components/EducationSection/EducationSection'
+import SkillSection from '@components/SkillSection/SkillSection'
+import WorkSection from '@components/WorkSection/WorkSection'
 
 const Home: NextPage = () => {
 	return (
@@ -21,6 +23,8 @@ const Home: NextPage = () => {
 					</div>
 					<div className="lg:col-span-3">
 						<EducationSection />
+						<SkillSection />
+						<WorkSection />
 					</div>
 				</div>
 			</div>
