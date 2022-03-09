@@ -39,12 +39,12 @@ const Home: NextPage = () => {
 							{'<Download Resume />'}
 						</div>
 					</div>
-					<div className="relative order-first mb-6 max-w-fit self-center md:order-last md:mb-0">
+					<div className="relative my-4 max-w-fit self-center md:my-0">
 						<div className="absolute -right-2 top-2 h-full w-full bg-gradient-to-r from-violet-500 to-fuchsia-500 transition-all dark:from-green-400 dark:to-blue-500" />
 						<img
 							src="/images/profile_image.webp"
 							alt="Profile image"
-							className="relative h-72 w-full"
+							className="relative h-72"
 						/>
 					</div>
 				</div>

@@ -7,8 +7,8 @@ const Layout: FC = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<div className="bg-white transition-all dark:bg-gray-900">{children}</div>
 			<PageRevealer />
+			<div className="bg-white transition-all dark:bg-gray-900">{children}</div>
 			<Footer />
 		</>
 	)

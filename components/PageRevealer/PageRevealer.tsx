@@ -17,6 +17,7 @@ const PageRevealer: FC = () => {
 			setRevealerStatus({ ...revealerStatus, animation: true, complete: true })
 			setTimeout(() => {
 				document.getElementById('reveal_container').style.backgroundColor = 'transparent'
+				document.body.classList.remove('max-h-screen', 'overflow-hidden')
 				setTimeout(() => {
 					setRevealerStatus({ ...revealerStatus, animation: false, hide: true })
 				}, 500)
@@ -25,10 +26,11 @@ const PageRevealer: FC = () => {
 	}
 
 	React.useEffect(() => {
+		document.body.classList.add('max-h-screen', 'overflow-hidden')
 		setTimeout(() => {
 			reveal()
 		}, 2000)
-	})
+	}, [])
 
 	const baffle = (): ReactNode => {
 		if (!revealerStatus.complete) {
