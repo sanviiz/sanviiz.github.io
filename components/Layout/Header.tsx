@@ -12,7 +12,7 @@ const Header: FC = () => {
 
 	return (
 		<>
-			<nav className="sticky top-0 z-10 border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 xs:px-6">
+			<nav className="sticky top-0 z-10 border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 xs:px-8">
 				<div className="container mx-auto flex max-w-5xl flex-wrap items-center justify-between">
 					<div className="flex items-center">
 						<span className="self-center whitespace-nowrap text-xl font-semibold transition-all dark:text-white">
@@ -36,7 +36,7 @@ const Header: FC = () => {
 						<button
 							data-collapse-toggle="mobile-menu"
 							type="button"
-							className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+							className="ml-3 inline-flex items-center rounded-lg border border-gray-200 p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:border-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
 							aria-controls="mobile-menu-2"
 							aria-expanded="false"
 						>
