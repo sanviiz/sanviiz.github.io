@@ -12,7 +12,7 @@ const Header: FC = () => {
 
 	return (
 		<>
-			<nav className="sticky top-0 z-10 border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 xs:px-8">
+			<nav className="sticky top-0 z-50 border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 xs:px-8">
 				<div className="container mx-auto flex max-w-5xl flex-wrap items-center justify-between">
 					<div className="flex items-center">
 						<span className="self-center whitespace-nowrap text-xl font-semibold transition-all dark:text-white">
