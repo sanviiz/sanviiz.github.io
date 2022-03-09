@@ -31,12 +31,12 @@ const EducationSection = () => {
 				Education
 			</span>
 			<div className="pl-4 pt-4">
-				<ol className="relative border-l border-gray-200 dark:border-gray-700">
+				<ol className="relative border-l border-gray-200 transition-all dark:border-gray-700">
 					{educationList.map((education, index) => (
 						<li className="mb-10 ml-6" key={index}>
-							<span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900">
+							<span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white transition-all dark:bg-blue-900 dark:ring-gray-900">
 								<svg
-									className="h-3 w-3 text-blue-600 dark:text-blue-400"
+									className="h-3 w-3 text-blue-600 transition-all dark:text-blue-400"
 									fill="currentColor"
 									viewBox="0 0 20 20"
 									xmlns="http://www.w3.org/2000/svg"
@@ -48,19 +48,19 @@ const EducationSection = () => {
 									></path>
 								</svg>
 							</span>
-							<h3 className="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white">
+							<h3 className="mb-1 flex items-center text-lg font-semibold text-gray-900 transition-all dark:text-white">
 								{education.academy}{' '}
 								{index === 0 && (
-									<span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-200 dark:text-blue-800">
+									<span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 transition-all dark:bg-blue-200 dark:text-blue-800">
 										Latest
 									</span>
 								)}
 							</h3>
-							<time className="mb-2 block text-sm font-normal leading-normal text-gray-400 dark:text-gray-500">
+							<time className="mb-2 block text-sm font-normal leading-normal text-gray-400 transition-all dark:text-gray-500">
 								{education.program}
 							</time>
 							<p
-								className={`text-base font-normal text-gray-500 dark:text-gray-400 ${
+								className={`text-base font-normal text-gray-500 transition-all dark:text-gray-400 ${
 									education?.list ? 'mb-0' : 'mb-4'
 								}`}
 							>
