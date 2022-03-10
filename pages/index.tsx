@@ -7,6 +7,7 @@ import SkillSection from '@components/SkillSection/SkillSection'
 import WorkSection from '@components/WorkSection/WorkSection'
 import TechnicalProjectSection from '@components/TechnicalProjectSection/TechnicalProjectSection'
 import BusinessProjectSection from '@components/BusinessProjectSection/BusinessProjectSection'
+import ContactSection from '@components/ContactSection/ContactSection'
 
 const Home: NextPage = () => {
 	return (
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
 			<div className="container mx-auto max-w-5xl px-2 py-4 pt-6 xs:px-8 md:pt-4 xl:px-0">
 				<HeroSection />
 				<hr className="my-4 border-gray-200 transition-all dark:border-gray-700 sm:mx-auto md:my-6" />
-				<div className="grid grid-cols-1 gap-4 lg:grid-cols-4">
+				<div className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-4">
 					<div>
 						<TableOfContents />
 					</div>
@@ -31,6 +32,8 @@ const Home: NextPage = () => {
 						<BusinessProjectSection />
 					</div>
 				</div>
+				<hr className="my-4 border-gray-200 transition-all dark:border-gray-700 sm:mx-auto md:my-6" />
+				<ContactSection />
 			</div>
 		</>
 	)

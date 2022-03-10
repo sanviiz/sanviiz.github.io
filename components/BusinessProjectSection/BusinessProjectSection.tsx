@@ -126,7 +126,7 @@ const BusinessProjectSection: FC = () => {
 			<span className="text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
 				Business Projects
 			</span>
-			<div className="pb-6">
+			<div>
 				{renderProject(businessProjectList.slice(0, 3))}
 				{!collapse && renderProject(businessProjectList.slice(3))}
 				{businessProjectList.length > 3 && (

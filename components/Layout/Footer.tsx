@@ -117,7 +117,7 @@ const Footer: FC = () => {
 								</svg>
 							</a>
 							<a
-								href="https://github.com/sanviiz/sanviiz.github.io/tree/develop"
+								href="https://github.com/sanviiz/"
 								className="text-gray-500 transition-all hover:text-gray-900 dark:hover:text-white"
 							>
 								<svg

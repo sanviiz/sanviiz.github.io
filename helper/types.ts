@@ -16,6 +16,7 @@ export type Education = {
 	program: string
 	description: string
 	list?: string[]
+	link?: string
 }
 
 export type Work = {

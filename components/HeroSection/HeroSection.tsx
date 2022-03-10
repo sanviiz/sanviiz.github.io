@@ -31,6 +31,7 @@ const HeroSection: FC = () => {
 					<a
 						href="/files/sanviiz_resume.pdf"
 						target="_blank"
+						rel="noreferrer"
 						className="max-w-fit cursor-pointer text-lg font-medium transition-all dark:text-white xs:text-xl"
 					>
 						{'<Download Resume />'}
@@ -43,7 +44,9 @@ const HeroSection: FC = () => {
 					<div className="aspect-square h-full w-full pb-2 sm:h-72 sm:p-4">
 						<img
 							src="/images/profile_image.webp"
-							alt="Profile image"
+							alt="Pakkaphong Akkabut"
+							title="Pakkaphong Akkabut"
+							draggable="false"
 							className="relative h-full"
 						/>
 					</div>
