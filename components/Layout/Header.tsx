@@ -12,10 +12,18 @@ const Header: FC = () => {
 
 	return (
 		<>
-			<nav className="sticky top-0 z-50 border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 xs:px-8">
+			<nav className="fixed top-0 z-50 w-full border-b border-gray-200 bg-white px-2 py-2.5 transition-all dark:border-gray-600 dark:bg-gray-800 xs:px-8">
 				<div className="container mx-auto flex max-w-5xl flex-wrap items-center justify-between">
 					<div className="flex items-center">
-						<span className="self-center whitespace-nowrap text-xl font-semibold transition-all dark:text-white">
+						<span
+							className="cursor-pointer self-center whitespace-nowrap text-xl font-semibold transition-all dark:text-white"
+							onClick={() =>
+								window.scrollTo({
+									top: 0,
+									behavior: 'smooth',
+								})
+							}
+						>
 							Sanviiz
 						</span>
 					</div>
@@ -95,7 +103,14 @@ const Header: FC = () => {
 								</div>
 							</li>
 							<li>
-								<div className="block cursor-pointer border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 transition-all hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-gray-900 md:dark:hover:bg-transparent md:dark:hover:text-white">
+								<div
+									className="block cursor-pointer border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 transition-all hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-gray-900 md:dark:hover:bg-transparent md:dark:hover:text-white"
+									onClick={() =>
+										document.querySelector('#contact').scrollIntoView({
+											behavior: 'smooth',
+										})
+									}
+								>
 									Contact
 								</div>
 							</li>

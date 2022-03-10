@@ -123,8 +123,9 @@ const BusinessProjectSection: FC = () => {
 
 	return (
 		<>
-			<span className="text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
+			<span className="relative text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
 				Business Projects
+				<div className="absolute -top-16" id="businessprojects" />
 			</span>
 			<div>
 				{renderProject(businessProjectList.slice(0, 3))}

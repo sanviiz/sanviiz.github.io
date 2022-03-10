@@ -29,8 +29,9 @@ const WorkSection: FC = () => {
 
 	return (
 		<>
-			<span className="text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
+			<span className="relative text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
 				Work Experience
+				<div className="absolute -top-16" id="workexperience" />
 			</span>
 			<div className="pt-4 pl-4">
 				<ol className="relative border-l border-gray-200 transition-all dark:border-gray-700">

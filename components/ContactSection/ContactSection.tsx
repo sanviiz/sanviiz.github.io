@@ -3,8 +3,9 @@ import React, { FC } from 'react'
 const ContactSection: FC = () => {
 	return (
 		<>
-			<span className="text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
+			<span className="relative text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
 				Get In Touch
+				<div className="absolute -top-16" id="contact" />
 			</span>
 			<div className="grid grid-cols-1 gap-4 py-4 sm:grid-cols-2">
 				<a

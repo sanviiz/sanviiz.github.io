@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app'
 import Layout from '@layout/Layout'
 import { ContextWrapper, defaultState, SharedState } from '@hooks/context'
 import { Theme } from '@helper/types'
+import smoothscroll from 'smoothscroll-polyfill'
 import 'animate.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	const sharedState: SharedState = { theme, setTheme }
 
 	useEffect(() => {
+		smoothscroll.polyfill()
 		const root = window.document.documentElement
 		const initialColorValue = root.style.getPropertyValue('--initial-color-mode')
 		initialColorValue === 'dark' && setTheme('dark')

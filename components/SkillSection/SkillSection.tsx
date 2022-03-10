@@ -3,8 +3,9 @@ import React, { FC } from 'react'
 const SkillSection: FC = () => {
 	return (
 		<>
-			<span className="text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
+			<span className="relative text-3xl font-normal text-gray-500 transition-all dark:text-gray-300">
 				Skills
+				<div className="absolute -top-16" id="skills" />
 			</span>
 			<div className="pt-4 pb-6">
 				<div className="mb-4 rounded-lg border border-gray-200 p-4 transition-all dark:border-gray-700">

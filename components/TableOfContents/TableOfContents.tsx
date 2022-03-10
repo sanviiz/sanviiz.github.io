@@ -53,7 +53,14 @@ const TableOfContents: FC = () => {
 								}`}
 								key={index}
 							>
-								<td className="cursor-pointer whitespace-nowrap py-4 px-6 text-sm font-medium text-gray-900 transition-all hover:underline dark:text-white">
+								<td
+									className="cursor-pointer whitespace-nowrap py-4 px-6 text-sm font-medium text-gray-900 transition-all hover:underline dark:text-white"
+									onClick={() =>
+										document.querySelector(record.link).scrollIntoView({
+											behavior: 'smooth',
+										})
+									}
+								>
 									{record.label}
 								</td>
 							</tr>
