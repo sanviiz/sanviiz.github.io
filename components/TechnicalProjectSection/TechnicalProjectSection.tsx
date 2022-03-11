@@ -82,7 +82,7 @@ const TechnicalProjectSection: FC = () => {
 				<span className="mb-2 block text-sm font-normal leading-normal text-gray-400 transition-all dark:text-gray-500">
 					Keywords: {project.keywords.join(', ')}
 				</span>
-				<p className="mb-2 text-base font-normal text-blue-800 transition-all dark:text-blue-200">
+				<p className="mb-2 text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 					{project.date}
 					<span className="hidden sm:inline"> | </span>
 					<br className="block sm:hidden" />

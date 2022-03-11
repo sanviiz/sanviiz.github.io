@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Script from 'next/script'
 import TableOfContents from '@components/TableOfContents/TableOfContents'
 import HeroSection from '@components/HeroSection/HeroSection'
 import EducationSection from '@components/EducationSection/EducationSection'
@@ -42,6 +43,20 @@ const Home: NextPage = () => {
 					content="Hi, I'm Pakkaphong Akkabut A front end developer and interested in the full stack developer - Sanviiz"
 				/>
 			</Head>
+			{/* Global site tag (gtag.js) - Google Analytics */}
+			<Script
+				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+				strategy="afterInteractive"
+			/>
+			<Script id="google-analytics" strategy="afterInteractive">
+				{`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
+                `}
+			</Script>
 			<div className="container mx-auto max-w-5xl px-2 py-4 pt-6 xs:px-8 md:pt-4 xl:px-0">
 				<HeroSection />
 				<hr className="my-4 border-gray-200 transition-all dark:border-gray-700 sm:mx-auto md:my-6" />
