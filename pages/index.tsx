@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
+                gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
                 `}
 			</Script>
 			<div className="container mx-auto max-w-5xl px-2 py-4 pt-6 xs:px-8 md:pt-4 xl:px-0">
