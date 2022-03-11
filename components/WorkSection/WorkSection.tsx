@@ -36,10 +36,7 @@ const WorkSection: FC = () => {
 			<div className="pt-4 pl-4">
 				<ol className="relative border-l border-gray-200 transition-all dark:border-gray-700">
 					{workList.map((work, index) => (
-						<li
-							className={`ml-6 ${index === workList.length - 1 ? 'mb-6' : 'mb-10'}`}
-							key={index}
-						>
+						<li className="ml-6 mb-10 last:mb-6" key={index}>
 							<span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white transition-all dark:bg-blue-900 dark:ring-gray-900">
 								<svg
 									className="h-3 w-3 text-blue-600 transition-all dark:text-blue-400"
@@ -67,7 +64,7 @@ const WorkSection: FC = () => {
 							</span>
 							<p
 								className={`text-base font-normal text-gray-500 transition-all dark:text-gray-400 ${
-									work?.list ? 'mb-0' : 'mb-4'
+									work?.list ? 'mb-2' : 'mb-4'
 								}`}
 							>
 								{work.date}
@@ -78,7 +75,11 @@ const WorkSection: FC = () => {
 							{work?.list && (
 								<ul className="mb-4 ml-[20px] list-disc text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 									{work.list.map((listElement, index) => {
-										return <li key={index}>{listElement}</li>
+										return (
+											<li key={index} className="mb-2 last:mb-0">
+												{listElement}
+											</li>
+										)
 									})}
 								</ul>
 							)}
