@@ -7,7 +7,6 @@ const Custom404: NextPage = () => {
 			<Head>
 				<title>404 Page not found - All about Sanviiz</title>
 				<link rel="icon" href="/favicon.svg" />
-				<meta property="og:title" content="404 Page not found - All about Sanviiz" />
 			</Head>
 			<div className="container mx-auto max-w-5xl py-40 px-2 text-center xs:px-8 xl:px-0">
 				<div>
