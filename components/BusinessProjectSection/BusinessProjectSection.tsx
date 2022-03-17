@@ -35,6 +35,7 @@ const BusinessProjectSection: FC = () => {
 				'Built an e-commerce web application for Personal and Organization',
 				'Implemeted Next.js and Tailwind.css to built web application',
 			],
+			link: 'https://shop.tangjohnson.com/',
 		},
 		{
 			title: 'Jaadhai insurance website',
