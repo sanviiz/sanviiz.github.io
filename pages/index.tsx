@@ -17,9 +17,10 @@ const Home: NextPage = () => {
 				<title>Pakkaphong Akkabut - All about Sanviiz</title>
 				<meta name="theme-color" content="#ffffff" />
 				<meta property="og:type" content="website" />
-				<meta property="og:image" content="/images/SEO_banner.png" />
-				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:image" content="/images/SEO_banner.png" />
+				<meta
+					property="og:image"
+					content="https://sanviiz.github.io/images/SEO_banner.png"
+				/>
 				<meta
 					name="description"
 					content="Hi, I'm Pakkaphong Akkabut A front end developer and interested in the full stack developer - Sanviiz"
@@ -31,16 +32,21 @@ const Home: NextPage = () => {
 					content="sanviiz, Sanviiz, sanviiz.dev, sanviiz dev, sanviiz dev home, sanviiz home, index, sanviiz pakkaphong, Pakkaphong, Pakkaphong Akkabut, front end, frontend, front-end, frontend developer, frontend dev, full-stack, full stack, dev"
 				/>
 				<meta property="og:url" content="https://sanviiz.github.io/" />
+				<meta property="og:title" content="Pakkaphong Akkabut - All about Sanviiz" />
+				<meta
+					property="og:description"
+					content="Hi, I'm Pakkaphong Akkabut A front end developer and interested in the full stack developer - Sanviiz"
+				/>
+				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://sanviiz.github.io/" />
 				<meta property="twitter:title" content="Pakkaphong Akkabut - All about Sanviiz" />
 				<meta
 					property="twitter:description"
 					content="Hi, I'm Pakkaphong Akkabut A front end developer and interested in the full stack developer - Sanviiz"
 				/>
-				<meta property="og:title" content="Pakkaphong Akkabut - All about Sanviiz" />
 				<meta
-					property="og:description"
-					content="Hi, I'm Pakkaphong Akkabut A front end developer and interested in the full stack developer - Sanviiz"
+					property="twitter:image"
+					content="https://sanviiz.github.io/images/SEO_banner.png"
 				/>
 			</Head>
 			{/* Global site tag (gtag.js) - Google Analytics */}
