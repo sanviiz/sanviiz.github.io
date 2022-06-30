@@ -4,23 +4,22 @@ import { Education } from '@helper/types'
 const EducationSection: FC = () => {
 	const educationList: Education[] = [
 		{
-			academy: 'KMUTT',
-			program: 'Bachelor of Engineering in Electronic and Telecommunication Engineering',
-			description:
-				'Present, King Mongkut’s University of Technology Thonbury 4th Year Student',
+			academy: 'King Mongkut’s University of Technology Thonbury',
+			program: 'Bachelor of engineering in electronic and telecommunication engineering',
+			description: 'Graduated June 2022',
 		},
 		{
-			academy: 'Codemobiles online course',
-			program: 'Warehousing Department on Web Application',
-			description: 'By using Stacks which are',
+			academy: 'Codemobiles',
+			program: 'Warehousing department on web application',
+			description: 'By using stacks which are',
 			list: [
-				'Frontend: React.js with AdminLTE Theme',
+				'Frontend: React.js with AdminLTE theme',
 				'Backend: Node.js and Express.js with Sequelize ORM on SQLite database engine',
 			],
 		},
 		{
 			academy: 'Sisaket wittayalai school',
-			program: 'Science and Mathematics Program',
+			program: 'Science and mathematics program',
 			description: 'Graduated April 2018',
 			link: '/files/sanviiz_portfolio.pdf',
 		},
@@ -53,7 +52,7 @@ const EducationSection: FC = () => {
 							<h3 className="mb-1 flex items-center text-lg font-semibold uppercase text-gray-900 transition-all dark:text-white">
 								{education.academy}{' '}
 								{index === 0 && (
-									<span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium capitalize text-blue-800 transition-all dark:bg-blue-200 dark:text-blue-800">
+									<span className="mr-2 ml-3 hidden rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium capitalize text-blue-800 transition-all dark:bg-blue-200 dark:text-blue-800 md:inline">
 										Latest
 									</span>
 								)}

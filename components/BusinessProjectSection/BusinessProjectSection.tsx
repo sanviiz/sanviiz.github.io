@@ -10,8 +10,8 @@ const BusinessProjectSection: FC = () => {
 			place: 'Bangkok, Thailand',
 			list: [
 				'Connected website interface with API endpoint by using Javascript on Laravel framework',
-				'Build components on control panel section such as Re-order Table, Image Gallery etc. with React.js, Ant Design and Tailwind.css',
-				'Daily scrum meeting and Updating project progress on notion (Agile)',
+				'Build components on control panel section such as re-order table, image gallery etc. with React.js, Ant Design and Tailwind.css',
+				'Daily scrum meeting and updating project progress on notion (Agile)',
 			],
 			link: 'https://www.kwiasia.com/',
 		},
@@ -21,8 +21,8 @@ const BusinessProjectSection: FC = () => {
 			date: 'October 2021',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Designed UX/UI Control Panel System (CMS) for user to manage examination',
-				'Using JSON Web Token (JWT) for authorization',
+				'Designed UX/UI control panel system (CMS) for user to manage examination',
+				'Using json web token (JWT) for authorization',
 				'Implemeted React.js and Tailwind.css to built web application',
 			],
 		},
@@ -32,7 +32,7 @@ const BusinessProjectSection: FC = () => {
 			date: 'August 2021',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Built an e-commerce web application for Personal and Organization',
+				'Built an e-commerce web application for personal and organization',
 				'Implemeted Next.js and Tailwind.css to built web application',
 			],
 			link: 'https://shop.tangjohnson.com/',
@@ -43,8 +43,8 @@ const BusinessProjectSection: FC = () => {
 			date: 'March 2021',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Designed UX/UI Control Panel System (CMS) for user to manage permission and insurance order',
-				'Built frontend web application and CMS on Laravel framework with html, css and JQuery',
+				'Designed UX/UI control panel system (CMS) for user to manage permission and insurance order',
+				'Built frontend web application and CMS on Laravel framework with HTML, CSS and JQuery',
 			],
 			link: 'https://www.jaadhai.com/',
 		},
@@ -54,9 +54,9 @@ const BusinessProjectSection: FC = () => {
 			date: 'September 2020',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Composing and Migrating new design into production website for Vidyasirimedhi Institute of Science and Technology (VISTEC)',
-				'Implemented Bootstrap 4, SCSS and JQuery to redesign old Web Application',
-				'Weekly scrum meeting and Updating project progress on trello.com',
+				'Composing and migrating new design into production website for Vidyasirimedhi Institute of Science and Technology (VISTEC)',
+				'Implemented Bootstrap 4, SCSS and JQuery to redesign old web application',
+				'Weekly scrum meeting and updating project progress on trello.com',
 			],
 		},
 		{
@@ -65,7 +65,7 @@ const BusinessProjectSection: FC = () => {
 			date: 'June 2020',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Preparing and Testing IoT Training Board with ESP32, LED, RFID, Temperature Sensor and Humidity Sensor',
+				'Preparing and testing IoT training board with ESP32, LED, RFID, temperature sensor and humidity sensor',
 			],
 			link: 'https://www.facebook.com/103416527738643/posts/285461332867494/',
 		},

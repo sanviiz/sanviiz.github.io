@@ -9,8 +9,8 @@ const TechnicalProjectSection: FC = () => {
 			date: 'October 2020',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Planning and Design Project Structure about Online Video Consultation',
-				'Implemented Vue.js, Firebase and WebRTC for Real-Time Video Call',
+				'Planning and design project structure about online video consultation',
+				'Implemented Vue.js, Firebase and WebRTC for real-time video call',
 			],
 			link: 'https://www.facebook.com/100845578408011/posts/145822327243669/',
 		},
@@ -20,7 +20,7 @@ const TechnicalProjectSection: FC = () => {
 			date: 'September 2020',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Member of Pascal Team to Design and Create Self-Driving and Logistics Car by using ESP32 and NVIDIA Jetson Nano',
+				'Member of Pascal team to design and create self-driving and logistics car by using ESP32 and NVIDIA Jetson Nano',
 			],
 			link: 'https://www.facebook.com/103398601365563/posts/170498621322227/',
 		},
@@ -30,9 +30,9 @@ const TechnicalProjectSection: FC = () => {
 			date: 'September 2020',
 			place: 'Bangkok, Thailand',
 			list: [
-				'Develop Earthquake Frequency Sensor by using NERDAQ Project integrated with NBIoT to make a Sensor sending Data into Internet',
-				'Using Grafana as Dashboard to monitor an Earthquake Frequency Graph',
-				'This Project got 1st place winner in Invention Innovation Contest at Bangkok Meteorological Department',
+				'Develop earthquake frequency sensor by using NERDAQ project integrated with NBIoT to make a sensor sending data into internet',
+				'Using Grafana as dashboard to monitor an earthquake frequency graph',
+				'This project got 1st place winner in Invention Innovation Contest at Bangkok Meteorological Department',
 			],
 		},
 		{
@@ -41,8 +41,8 @@ const TechnicalProjectSection: FC = () => {
 			date: 'August 2017',
 			place: 'Chaiyaphum, Thailand',
 			list: [
-				'Design Project Structure that include Register, Login, Dashboard and CRUD',
-				'Built Frontend with Pure HTML, CSS and Backend with Pure PHP (phpMyAdmin)',
+				'Design project structure that include register, login, dashboard and CRUD',
+				'Built frontend with pure HTML, CSS and backend with pure PHP (phpMyAdmin)',
 			],
 		},
 	]

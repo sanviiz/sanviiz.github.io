@@ -12,15 +12,15 @@ const TableOfContents: FC = () => {
 			link: '#skills',
 		},
 		{
-			label: 'Work experience',
+			label: 'Work Experience',
 			link: '#workexperience',
 		},
 		{
-			label: 'Technical projects',
+			label: 'Technical Projects',
 			link: '#technicalprojects',
 		},
 		{
-			label: 'Business projects',
+			label: 'Business Projects',
 			link: '#businessprojects',
 		},
 		{

@@ -17,11 +17,7 @@ const HeroSection: FC = () => {
 						<div className="text-xl font-medium text-gray-800 transition-all dark:text-gray-300 xs:text-2xl sm:text-3xl">
 							<Typewriter
 								options={{
-									strings: [
-										'Frontend Developer',
-										'Web Designer',
-										'App Developer',
-									],
+									strings: ['Web Developer', 'UX/UI Designer', 'IoT Developer'],
 									autoStart: true,
 									loop: true,
 								}}
@@ -37,7 +33,7 @@ const HeroSection: FC = () => {
 						{'<Download Resume />'}
 					</a>
 				</div>
-				<div className="relative my-4 aspect-square w-full max-w-fit self-center sm:w-72 md:my-0">
+				<div className="relative my-4 hidden aspect-square w-full max-w-fit self-center sm:w-72 md:my-0 md:block">
 					<div className="absolute -right-2 top-2 h-full w-full pb-2 pr-2 sm:p-4">
 						<div className="h-full bg-gradient-to-r from-violet-500 to-fuchsia-500 transition-all dark:from-green-400 dark:to-blue-500" />
 					</div>

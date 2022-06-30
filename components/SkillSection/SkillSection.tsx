@@ -17,13 +17,14 @@ const SkillSection: FC = () => {
 					</span>
 					<p className="mb-2 text-base font-normal text-gray-500 transition-all dark:text-gray-400">
 						Python 3, JavaScript (ES6), Node.js, C/C++, React, SQL, HTML5, CSS3, Git,
-						Agile (Trello), Linux, IoT, Arduino, Adobe Creative Cloud, Vim
+						Agile (Trello), Linux, IoT, Arduino, Adobe creative cloud, Vim
 					</p>
 					<span className="mb-2 block text-sm font-normal leading-normal text-gray-400 transition-all dark:text-gray-500">
 						And have some experienced about:
 					</span>
 					<p className="text-base font-normal text-gray-500 transition-all dark:text-gray-400">
-						MIPS Assembly, ARM Cortex-M0, Golang, Vue, NoSQL, SCSS, UX/UI Design
+						TypeScript, Java, Spring, MIPS assembly, ARM Cortex-M0, Golang, Vue, NoSQL,
+						SCSS, UX/UI design
 					</p>
 				</div>
 				<div className="rounded-lg border border-gray-200 p-4 transition-all dark:border-gray-700">
@@ -34,7 +35,7 @@ const SkillSection: FC = () => {
 						Outstanding:
 					</span>
 					<p className="text-base font-normal text-gray-500 transition-all dark:text-gray-400">
-						Public Speaker, Leader, Teaching, Motivator
+						Public speaker, Leader, Teaching, Motivator
 					</p>
 				</div>
 			</div>
