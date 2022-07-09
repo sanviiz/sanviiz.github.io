@@ -11,7 +11,7 @@ const WorkSection: FC = () => {
 			list: [
 				'Working on agile methodology',
 				'Develop micro frontends by using React.js with TypeScript',
-				'Develop microservices by using Java Spring boot',
+				'Develop microservices by using Java Spring Boot',
 			],
 			link: 'http://www.hitachi-ebworx.com/',
 		},
